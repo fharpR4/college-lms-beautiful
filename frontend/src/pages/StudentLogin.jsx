@@ -138,7 +138,7 @@ export default function StudentLogin() {
                   required
                 />
                 <p className="text-xs text-slate-500 mt-2">
-                  Enter your 16-character student code
+                  Enter your 17-character student code
                 </p>
               </div>
 
@@ -211,7 +211,7 @@ export default function StudentLogin() {
             <p className="text-xs font-bold text-slate-600 mb-2">🧪 Test Credentials:</p>
             <div className="space-y-1 text-xs text-slate-600">
               {loginType === 'student' ? (
-                <p>Student: <code className="px-2 py-1 bg-white rounded font-mono">STU24-TEST-CODE-0001</code></p>
+                <p>Student: <code className="px-2 py-1 bg-white rounded font-mono">STU24-ABCD-1234-WXYZ</code></p>
               ) : (
                 <>
                   <p>Admin: admin@college.com / admin123</p>
