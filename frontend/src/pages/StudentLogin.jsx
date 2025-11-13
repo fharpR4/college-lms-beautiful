@@ -211,7 +211,7 @@ export default function StudentLogin() {
             <p className="text-xs font-bold text-slate-600 mb-2">🧪 Test Credentials:</p>
             <div className="space-y-1 text-xs text-slate-600">
               {loginType === 'student' ? (
-                <p>Student: <code className="px-2 py-1 bg-white rounded font-mono">STU24-ABCD-1234-WXYZ</code></p>
+                <><p>Student: <code className="px-2 py-1 bg-white rounded font-mono">STU24-ABCD-1234-WXYZ | 100L</code></p><p>Student: <code className="px-2 py-1 bg-white rounded font-mono">STU24-EFGH-5678-WXYZ | 200L</code></p></>
               ) : (
                 <>
                   <p>Admin: admin@college.com / admin123</p>
